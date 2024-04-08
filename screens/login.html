@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/null.css">
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <div class="wrapper">
+       
+        <header class="navbar">
+            <div class="container">
+                <img class="navbar-brand" src="/pictures/Logo.png" alt="Логотип">
+                <a href="#" class="navbar-brand"></a>
+                <div class="navbar-wrap">
+                    <ul class="navbar-menu">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="/screens/spices.html">Специи</a></li>
+                        <li><a href="#">Пряности</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul> 
+                    <button class="login" onclick= "window.location.href = 'login.html'">Войти</button>
+                    
+                </div>
+            </div>
+        </header>
+    <div class="block">
+        <header class="header" id="header-login" style="background-image: url('/pictures/header.jpg');">
+            <div class="login-container">            
+                <h2 class="login-h2">Войти</h2>
+                <form class="login-form" action="submit.php" method="POST">
+                                        
+                    <label class="login-label" for="email">Email:</label>
+                    <input class="login-input" type="email" id="email" name="email" required>
+                    
+                    <label class="login-label" for="password">Пароль:</label>
+                    <input class="login-input" type="password" id="password" name="password" required>
+                    
+                    
+                    <button class="login" id="reg-aut" onclick="window.location.href='index.html'">Войти</button>
+                    <button class="login-unable" id="reg-aut-unable" onclick="window.location.href='autorisation.html'">Зарегистрироваться</button>
+                </form>
+            </div>
+            
+        </header>
+        
+    </div>
+</body>
+</html>
