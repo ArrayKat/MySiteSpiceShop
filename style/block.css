@@ -1,0 +1,124 @@
+
+.spices{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+
+.cards{
+    width: 20vw;
+    height: 15vh;
+    padding: 20px 10px;
+    background-color: aqua;
+    border: 5px;
+    border-radius: 5px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.cards-img{
+    width: 20vw;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+.Contacts{
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+}
+.stocks{
+    width: 100vw;
+    height: 100vh;
+    background-color: greenyellow;
+}
+
+
+
+
+
+
+
+/* шапка сайта: */
+.navbar{
+    width: 100%;
+    height: 100px;
+    /*box-shadow - отвечает за тень. 
+    с параметрами: 
+    0- смещение по х, 
+    4рх- смещение по у,
+    10рх - размытость
+    rgba - цвет тени, в палитре rgb, последний параметр отвечает за размытие*/
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+.navbar-brand{
+    height: 70px;
+    margin: 10px 0px 10px 40px;
+}
+.navbar .container{
+    height: inherit; /*высота зависит от родителя, то есть от navbar*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.navbar-menu li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.navbar-menu li a{
+    display: inline-block;
+    color: black;
+    opacity: 0.6;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0px 10px;
+    transition: all .074s ease-in-out; 
+    /* свойство при наведении,выше */
+}
+.navbar-menu li a:hover{
+    opacity: 1;
+}
+.navbar-wrap{
+    display: flex;
+    flex-flow:  row nowrap;
+    align-items: center;
+}
+.login{
+    font-size: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 7px 30px;
+    background-color:rgb(255, 170, 30);
+    border-radius: 5px;
+    color: black;
+    transition: all .1s ease-in;
+}
+.login-unable{
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    border: 1px solid rgb(255, 170, 30);
+    
+    border-radius: 5px;
+    color: rgb(255, 170, 30);
+    transition: all .1s ease-in;
+}
+.login:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 5px 10px rgba(255, 170, 30, .4);
+}
+.login-unable:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 5px 10px rgba(255, 170, 30, .4);
+}
