@@ -1,0 +1,11 @@
+
+/* Контакты*/
+.contakts-text{
+    font-size: 35px;
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    font-weight: bold;
+
+    padding-bottom: 50px;
+}

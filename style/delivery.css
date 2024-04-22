@@ -1,0 +1,25 @@
+/* Доставка*/
+.delivery-content{
+    display: flex;
+    padding-top: 20dvh;
+    padding-bottom: 15dvh;
+}
+.delivery-img{
+    width: 50vw;
+    height: auto;
+    padding: 0 7%;
+}
+
+.delivery-text{
+
+    display: block;
+    width: 40vw;
+}
+
+.text{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 35px;
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+}
