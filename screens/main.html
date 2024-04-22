@@ -24,16 +24,16 @@
 <body>
     <header class="navbar">
         <div class="container">
-            <img class="navbar-brand" src="/pictures/Logo.png" alt="Логотип">
+            <img class="navbar-brand" src="/pictures/logo.jpg" alt="Логотип">
             <a href="#" class="navbar-brand"></a>
             <div class="navbar-wrap">
                 <ul class="navbar-menu">
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="/screens/spices.html">Специи</a></li>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#spices">Специи</a></li>
+                    <li><a href="#stocks">Акции</a></li>
+                    <li><a href="#delivery">Доставка</a></li>
+                    <li><a href="#contakts">Контакты</a></li>
                 </ul>
-                <button class="login" onclick="window.location.href = 'login.html'">Войти</button>
+                <button class="login"onclick="window.location.href='#forms'">Войти</button>
 
             </div>
         </div>
@@ -41,12 +41,12 @@
     <div class="main-block">
         <div class="content">
             <h1>Добро пожаловать на наш сайт!</h1>
-            <p>Здесь вы найдете всю необходимую информацию.</p>
-            <button class="main-btn">Узнать больше</button>
+            <p>Азбука специй и пряностей</p>
+            <button class="main-btn" onclick="window.location.href='#spices'">Магазин специй</button>
         </div>
 
     </div>
-    <div class="spices">
+    <div class="spices" id="spices">
         <div class="spices-content">
             <h1>Специи и пряности</h1>
             <div class="slide-item">
@@ -64,7 +64,7 @@
                                     Экзотическая пряность с ярким анисовым вкусом и ароматом.
                                 </p>
                                 <h3 class="card-price">
-                                    380р.
+                                    480р.
                                 </h3>
 
                                 <button class="card-btn">Купить</button>
@@ -84,7 +84,7 @@
                                     Освежающая специя с легкой остротой и сладковатыми нотами.
                                 </p>
                                 <h3 class="card-price">
-                                    430р.
+                                    580р.
                                 </h3>
                                 <button class="card-btn">Купить</button>
                             </div>
@@ -103,7 +103,7 @@
                                     Идеальное сочетание пикантности и аромата для богатого вкуса.
                                 </p>
                                 <h3 class="card-price">
-                                    900р.
+                                    200р.
                                 </h3>
                                 <button class="card-btn">Купить</button>
                             </div>
@@ -122,7 +122,7 @@
                                     Пряность с терпким и насыщенным вкусом, добавляющая глубину блюдам.
                                 </p>
                                 <h3 class="card-price">
-                                    230р.
+                                    320р.
                                 </h3>
                                 <button class="card-btn">Купить</button>
                             </div>
@@ -143,7 +143,7 @@
                                     Нежная специя с теплым ароматом и сладковатым вкусом.
                                 </p>
                                 <h3 class="card-price">
-                                    1000р.
+                                    340р.
                                 </h3>
                                 <button class="card-btn">Купить</button>
                             </div>
@@ -162,7 +162,7 @@
                                     Энергичная пряность с острым вкусом и терпким ароматом.
                                 </p>
                                 <h3 class="card-price">
-                                    110р.
+                                    120р.
                                 </h3>
                                 <button class="card-btn">Купить</button>
                             </div>
@@ -181,7 +181,7 @@
                                     Яркая специя с терпким вкусом и ярким красным оттенком.
                                 </p>
                                 <h3 class="card-price">
-                                    580р.
+                                    120р.
                                 </h3>
                                 <button class="card-btn">Купить</button>
                             </div>
@@ -200,7 +200,7 @@
                                     Золотистая пряность с терпким вкусом и множеством полезных свойств.
                                 </p>
                                 <h3 class="card-price">
-                                    375р.
+                                    120р.
                                 </h3>
                                 <button class="card-btn">Купить</button>
                             </div>
@@ -208,11 +208,9 @@
                     </li>
                 </ul>
             </div>
-
-
         </div>
     </div>
-    <div class="stocks">
+    <div class="stocks" id="stocks">
         <h1>Товары недели</h1>
 
         <ul class="cards">
@@ -229,8 +227,8 @@
                             100 гр.
                         </p>
                         <h3 class="card-price">
-                            <span style="text-decoration: line-through;">150р.</span>
-                            <span style="color: red;">100р.</span>
+                            <span style="text-decoration: line-through;">500р.</span>
+                            <span style="color: red;">450р.</span>
                         </h3>
 
                         <button class="card-btn">Купить</button>
@@ -250,8 +248,8 @@
                             100 гр.
                         </p>
                         <h3 class="card-price">
-                            <span style="text-decoration: line-through;">100р.</span>
-                            <span style="color: red;">70р.</span>
+                            <span style="text-decoration: line-through;">170р.</span>
+                            <span style="color: red;">1500р.</span>
                         </h3>
                         <button class="card-btn">Купить</button>
                     </div>
@@ -270,8 +268,8 @@
                             100 гр.
                         </p>
                         <h3 class="card-price">
-                            <span style="text-decoration: line-through;">250р.</span>
-                            <span style="color: red;">200р.</span>
+                            <span style="text-decoration: line-through;">500р.</span>
+                            <span style="color: red;">480р.</span>
                         </h3>
                         <button class="card-btn">Купить</button>
                     </div>
@@ -290,8 +288,8 @@
                             100 гр.
                         </p>
                         <h3 class="card-price">
-                            <span style="text-decoration: line-through;">150р.</span>
-                            <span style="color: red;">120р.</span>
+                            <span style="text-decoration: line-through;">250р.</span>
+                            <span style="color: red;">220р.</span>
                         </h3>
                         <button class="card-btn">Купить</button>
                     </div>
@@ -300,7 +298,37 @@
         </ul>
 
     </div>
-    <div class="delivery">
+    <div class="forms" id="forms">
+        <h1>Заполните форму, что бы приобрести товар</h1>
+        <div class="forms-content">
+            <form class="login-form" action="submit.php" method="POST">
+                <label class="login-label" for="username">ФИО:</label>
+                <input class="login-input" type="text" id="username" name="username" required>
+
+                <label class="login-label" for="password">Пароль:</label>
+                <input class="login-input" type="password" id="password" name="password" required>
+
+                <label class="login-label" for="email">Email:</label>
+                <input class="login-input" type="email" id="email" name="email" required>
+
+                <label class="login-label" for="username">Адрес доставки:</label>
+                <input class="login-input" type="text" id="adress" name="adress" required>
+
+                
+
+                <button class="login-btn" id="openModal">Отправить</button>
+                
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                      <button class="close">close</button>
+                      <p>Привет, я всплывающее окно!</p>
+                    </div>
+                  </div>
+                <script src="/script/script.js"></script>
+            </form>
+        </div>
+    </div>
+    <div class="delivery" id="delivery">
         <div class="delivery-content">
             <div class="delivery-img">
                 <img src="/pictures/dostavka.png" alt="">
@@ -322,13 +350,13 @@
             </div>
         </div>
     </div>
-    <div class="contakts">
+    <div class="contakts" id="contakts">
         <h1>Контакты</h1>
         <div class="contakts-text">
             <p>ИП Колиниченко О. В.</p>
             <p>+7 (987) 081-28-90</p>
             <p>kalinasvitli@mail.ru</p>
         </div>
-        
+
     </div>
 </body>
