@@ -1,12 +1,12 @@
 /*  Главная страница*/
-.main-block {
+.main-screen {
     height: 100vh;
     background-image: url('/pictures/header.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
 }
-.main-block::before {
+.main-screen::before {
     content: '';
     position: absolute;
     top: 0;
@@ -38,6 +38,7 @@
 }
 .main-btn {
     font-family: "Advent Pro", sans-serif;
+    font-weight: bold;
     padding: 10px 30px;
     font-size: 24px;
     background-color:rgb(255, 170, 30);

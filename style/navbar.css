@@ -33,6 +33,7 @@
     font-size: 30px;
     font-family: "Advent Pro", sans-serif;
     font-optical-sizing: auto;
+    font-weight: bold;
 }
 .navbar-menu li a{
     display: inline-block;
@@ -56,7 +57,7 @@
     font-size: 24px;
     font-family: "Advent Pro", sans-serif;
     font-optical-sizing: auto;
-
+    font-weight: bold;
     
     margin-right: 30px;
     margin-left: 30px;
