@@ -1,7 +1,7 @@
 /*  Главная страница*/
 .main-screen {
     height: 100vh;
-    background-image: url('/pictures/header.jpg');
+    background-image: url('../pictures/header.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
