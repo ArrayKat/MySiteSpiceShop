@@ -3,6 +3,8 @@
     border: 3px solid rgb(62, 58, 58);
     border-radius: 20px; /* добавляем закругленные углы */
     margin: 0 10%;
+
+    position: relative;
 }
 
 .login-form {
@@ -16,6 +18,7 @@
     margin-bottom: 5px;
     margin-top: 10px;
     color: black; /* Цвет текста белый */
+
     font-size: 30px;
     font-family: "Advent Pro", sans-serif;
     font-optical-sizing: auto;
@@ -27,8 +30,35 @@
     margin-bottom: 10px;
     border: 2px solid black;
     border-radius: 5px;
-    color: white;
+    
+    font-size: 25px;
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
 }
+
+ .login-input option{
+    background-color: rgb(179, 171, 139) ;
+    color: black;
+
+    font-size: 25px;
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+    
+
+ }
+
+ .login-input select{
+    background-color: rgb(179, 171, 139) ;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    font-size: 15px;
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+ }
+ 
 .login-btn{
     margin-top: 30px;
     padding: 10px 20px;
@@ -45,6 +75,10 @@
     
 }
 .login-btn:hover{
-    
     box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3);
 }
+
+
+
+
+

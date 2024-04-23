@@ -306,11 +306,44 @@
     </div>
     <div class="forms" id="forms">
         <h1>Заполните форму, что бы приобрести товар</h1>
+        
         <div class="forms-content">
             <form class="login-form" action="submit.php" method="POST">
                 <label class="login-label" for="username">ФИО:</label>
                 <input class="login-input" type="text" id="username" name="username" required>
 
+                <label class="login-label" for="spices">Товар:</label>
+                <select class="login-input" name="Специя" >
+                    <option value="">Бадьян</option>
+                    <option value="">Кардамон</option>
+                    <option value="">Черный перец</option>
+                    <option value="">Гвоздика</option>
+                    <option value="">Корица цейлонская</option>
+                    <option value="">Имбирь</option>
+                    <option value="">Паприка</option>
+                    <option value="">Куркума индийская</option>
+
+                    <option value="">Лавровый лист</option>
+                    <option value="">Розмарин</option>
+                    <option value="">Мускатный орех</option>
+                    <option value="">душистый перец</option>
+                </select>
+
+                <label class="login-label" for="spices">Вес:</label>
+                <select class="login-input" name="Специя" >
+                     <option value="">100 гр</option>
+                     <option value="">200 гр</option>
+                     <option value="">300 гр</option>
+                     <option value="">400 гр</option>
+                     <option value="">500 гр</option>
+                     <option value="">600 гр</option>
+                     <option value="">700 гр</option>
+                     <option value="">800 гр</option>
+                     <option value="">900 гр</option>
+                     <option value="">1000 гр</option>
+
+                </select>
+                
                 <label class="login-label" for="password">Пароль:</label>
                 <input class="login-input" type="password" id="password" name="password" required>
 
@@ -319,13 +352,15 @@
 
                 <label class="login-label" for="username">Адрес доставки:</label>
                 <input class="login-input" type="text" id="adress" name="adress" required>
-
+                
+                
                 
 
-                <button class="login-btn" id="openModal">Отправить</button>
+                <button class="login-btn" onclick="window.location.href='#'">Отправить</button>
                 
             </form>
         </div>
+        
     </div>
     <div class="delivery" id="delivery">
         <div class="delivery-content">
